@@ -1,0 +1,51 @@
+page-menu-principal {
+    .pg-home{
+        background: url("../assets/imgs/bg.jpg") no-repeat !important;
+    }
+    .home-img{
+        margin: 1% auto 5% 18%;
+        width: 70%;
+        height: 50%;
+    }
+    .container2 {
+        max-width: 400px;
+        margin: 10px auto 0 auto;	
+    }
+    .flex2 {
+        display: flex;
+    }
+    .btn-Home {
+        font-family: 'Roboto';
+        font-weight: bold;
+        text-transform: uppercase;
+        height: 40%;
+        width: 40%;
+        margin: 5%;
+        background: #3ca0ee;
+        text-align: center;
+        font-size: 1em;
+        border-radius: 120px;
+        padding-bottom: 20px;	
+        //box-shadow: 2px 1px 2px 1.5px black;
+        color: white;
+    }
+    
+    .btnImg{
+        height: 75% !important;
+        width: 75%  !important;
+        padding: 10px;
+    }
+    
+    .flex-wrap2 {
+        flex-wrap: wrap;
+    }
+    .other{
+        margin-top: 7% !important;
+        background: #ffffff;
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 2px 1px 2px 1.5px black;
+        color: #02245f;
+        font-size: 18px;
+    }
+}

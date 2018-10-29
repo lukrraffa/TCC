@@ -1,0 +1,79 @@
+<!--
+  Generated template for the HistoricoPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Histórico de humor</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <!-- CARD inicial-->
+
+  <ion-card>
+
+    <ion-card-header>
+      <!-- Vou deixar sem nada por enquanto -->
+    </ion-card-header>
+
+    <ion-card-content>
+      <!-- Add card content here! -->
+
+      <!-- <h2 class="escritaCard">Teste CSS</h2> -->
+
+      {{
+      <!--Nome da váriavel do nome da pessoa-->}}, essa é a página para gerar um relatório
+      do seu histórico de humor.
+    </ion-card-content>
+
+  </ion-card>
+
+  <!-- Fim do CARD inicial-->
+
+  <!-- Filtro para busca -->
+  <ion-list>
+    <ion-item>
+      <ion-label>Selecione o humor</ion-label>
+      <ion-select [(ngModel)]="humor" multiple="true" cancelText="Cancelar" okText="Ok">
+        <ion-option value="todos" selected="true">Todos</ion-option>
+        <ion-option value="alegre">Alegre</ion-option>
+        <ion-option value="bem" selected="true">Bem</ion-option>
+        <ion-option value="triste">Triste</ion-option>
+        <ion-option value="muitoTriste">Muito triste</ion-option>
+        <ion-option value="ajudaUrgente">Ajuda urgente</ion-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+
+
+  <ion-item>
+    <ion-label fixed>Data inicial</ion-label>
+    <ion-input type="date"></ion-input>
+  </ion-item>
+
+  <br>
+
+  <ion-item>
+    <ion-label fixed>Data final</ion-label>
+    <ion-input type="date"></ion-input>
+  </ion-item>
+
+
+  <!-- Fim do filtro para busca -->
+  <br>
+  <!--Button para gerar relatório-->
+
+  <button ion-button round>Gerar relatório</button>
+
+  <!--Button para gerar relatório-->
+
+
+
+</ion-content>

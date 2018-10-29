@@ -1,0 +1,109 @@
+<!-- Início do MENU -->
+<ion-menu [content]="content">
+
+  <ion-header>
+
+
+    <ion-toolbar>
+      <ion-title>Menu</ion-title>
+    </ion-toolbar>
+
+
+
+
+  </ion-header>
+  <ion-content>
+    <ion-list>
+      <button ion-item (click)="openPage(homePage)">
+        Home
+      </button>
+      <button ion-item (click)="openPage(HumorPage)">
+        Humor diário
+      </button>
+      <button ion-item (click)="openPage(eventsPage)">
+        Events
+      </button>
+      <button ion-item (click)="closeMenu()">
+        Close Menu
+      </button>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+
+<ion-nav id="nav" #content [root]="rootPage"></ion-nav>
+
+<!-- Fim do MENU -->
+
+<ion-header>
+  <ion-navbar>
+    <ion-title>Menu</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding class="pg-home">
+
+  <!-- Testando imagens do MENU 
+
+      <div (click)="paraondequeroir()">
+          <img src="../../assets/imgs/bee.png">
+      </div>
+      
+       
+      <div>
+          <button ion-button icon-only small color="default">  
+              <ion-icon class="fa-battery-1"></ion-icon>  
+             
+            </button> 
+      </div>
+    
+ Fim dos testes da imagens do MENU -->
+
+ <!-- testando MENU 
+
+  <div>
+    <button (click)="humor()" ion-button icon-only full color="default">
+
+      <img src="../../assets/imgs/bee.png">
+
+      Humor diário
+
+
+    </button>
+
+  </div>
+
+  fim dos testes do MENU -->
+
+   
+
+
+  <!-- Fim dos testes buttons de humor-->
+
+ 
+
+    <section class="container2 flex2 flex-wrap2">
+
+      <!-- <img class="home-img" src="../assets/imgs/bee.png" alt="Card"> -->
+
+      <div class="btn-Home" (click)="humor()">
+        <img class="btnImg" src="../assets/imgs/bee.png" alt="Card">
+        Humor diário <br> &nbsp;&nbsp;&nbsp;
+      </div>
+      <div class="btn-Home" (click)="historico()">
+        <img class="btnImg" src="../assets/imgs/historico.png" alt="Card">
+        Histórico de humor
+      </div>
+      <div class="btn-Home" (click)="respiracao()">
+        <img class="btnImg" src="../assets/imgs/respiracao.png" alt="Card">
+        Exercício de respiração
+      </div>
+      <div class="btn-Home" (click)="editarConta()">
+        <img class="btnImg" src="../assets/imgs/editar.png" alt="Card">
+        Editar dados de usuário
+      </div>
+    </section>
+    <!--- -->
+
+</ion-content>

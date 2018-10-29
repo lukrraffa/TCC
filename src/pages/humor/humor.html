@@ -1,0 +1,149 @@
+<!--
+  Generated template for the HumorPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+    <ion-navbar>
+        <ion-title>Humor diário</ion-title>
+    </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+    <!-- CARD inicial-->
+
+    <ion-card>
+
+        <ion-card-header>
+            <!-- Vou deixar sem nada por enquanto -->
+        </ion-card-header>
+
+        <ion-card-content>
+            <!-- Add card content here! -->
+
+            Olá {{
+            <!--Nome da váriavel do nome da pessoa-->}}, como está se sentindo hoje?
+        </ion-card-content>
+
+    </ion-card>
+
+    <!-- Fim do CARD inicial-->
+
+    <!-- Exemplos de buttons de humor
+<div (click)="paraondequeroir()">
+    <img src="../../assets/imgs/feliz.png">
+</div>
+<div (click)="paraondequeroir()">
+    <button ion-button icon-only small color="default">  
+     
+        <img src="../../assets/imgs/feliz.png">
+       Feliz
+      </button> 
+</div>
+
+Fim dos exemplos de buttons do humor -->
+
+
+    <!-- Testando imagens com click de humor-->
+    <br>
+    <br>
+    <br>
+
+
+
+    <div>
+        <!-- ion-row é para deixar em uma linha só-->
+        <ion-row>
+
+            <!-- ion-col é para coluna-->
+            <ion-col col-4>
+
+                <img (click)="feliz()" src="../../assets/imgs/feliz.png">
+
+                <p (click)="feliz()">
+                    &nbsp;&nbsp;&nbsp;Feliz
+                </p>
+
+            </ion-col>
+
+
+            <ion-col col-4>
+
+                <img (click)="bem()" src="../../assets/imgs/bem.png">
+
+                <p (click)="bem()">
+                    &nbsp;&nbsp;&nbsp;Bem
+                </p>
+            </ion-col>
+
+            <ion-col col-4>
+
+                <img (click)="neutro()" src="../../assets/imgs/neutro.png">
+
+                <p (click)="neutro()">
+                    &nbsp;&nbsp;Neutro
+                </p>
+            </ion-col>
+
+        </ion-row>
+    </div>
+
+    <div>
+        <ion-row>
+
+
+            <ion-col col-4>
+
+                <img (click)="triste()" src="../../assets/imgs/triste.png">
+
+                <p (click)="triste()">
+                    &nbsp;&nbsp;&nbsp;Triste
+                </p>
+
+            </ion-col>
+
+
+            <ion-col col-4>
+
+                <img (click)="raiva()" src="../../assets/imgs/raiva.png">
+
+                <p (click)="raiva()">
+                    &nbsp;&nbsp;&nbsp;Raiva
+                </p>
+            </ion-col>
+
+            <ion-col col-4>
+
+                <img (click)="muitoTriste()" src="../../assets/imgs/chorando.png">
+
+                <p (click)="muitoTriste()">
+                    Muito triste
+                </p>
+            </ion-col>
+
+        </ion-row>
+    </div>
+
+    <!--  Fim dos testes com imagens com click de humor-->
+
+    <!-- _______________________________________ -->
+
+    <!-- Exemplo de buttons com imagem de rostinhos 
+<div>
+    <button (click)="paraondequeroir()" ion-button icon-only   color="default">  
+     
+        <img src="../../assets/imgs/feliz.png">
+              
+         Feliz &nbsp;&nbsp;&nbsp;
+       
+     
+      </button> 
+           
+     Fim dos buttons com rostinhos -->
+
+</ion-content>
