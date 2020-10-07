@@ -2,7 +2,9 @@
 
 -> DESCRIÇÃO: Um aplicativo para dispositivos móveis para auxiliar pessoas com depressão.
 
+-> SITUAÇÃO: Incompleto - Faltando BACK-END.
+
 -> Tecnologia utilizadas: 
 
-* IONIC 
+* IONIC FRAMEWORK
 
